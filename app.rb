@@ -13,4 +13,7 @@ class App < Sinatra::Base
     # Write your code here!
     erb :friends
   end
+  
+  post 'reverse' do
+  end
 end
