@@ -14,6 +14,5 @@ class App < Sinatra::Base
     erb :friends
   end
   
-  post 'reverse' do
-  end
+
 end
